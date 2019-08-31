@@ -19,7 +19,7 @@ export default function Header(props){
 const styles = StyleSheet.create({
     images:{
         
-        width: 100,
+        width: 45,
         height: 30,
         resizeMode: 'cover'
     },
