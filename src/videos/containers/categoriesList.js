@@ -4,8 +4,13 @@ import Layout from '../components/suggestion-list-layout';
 import CategoriesLayout from '../components/CategoriesLayout'
 import Empty from '../components/Empty';
 import HorizonatalSeparator from '../components/horizontal-separator';
-
+import { connect } from 'react-redux';
 import Category from '../components/category';
+
+
+function mapStateToprops(state){
+    debugger
+}
 
  class CategoriesList extends Component{
 
@@ -32,4 +37,4 @@ import Category from '../components/category';
         )
     }
 }
-export default CategoriesList;
+export default connect(mapStateToprops)( CategoriesList );
